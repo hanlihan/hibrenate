@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-1-10 14:34:58 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ittx.hibate.model.Department" table="department">
+        <id name="d_id"  type="int" column="d_id" >
+            <generator class="assigned" />
+        </id>
+        
+        <property name="name" type="java.lang.String" column="name"/>
+        
+        <property name="introduce" type="java.lang.String" column="introduce"></property>
+        
+    </class>
+</hibernate-mapping>
